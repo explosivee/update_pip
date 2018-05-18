@@ -17,7 +17,7 @@ def run():
     pickage_list = json.loads(str(ret.stdout).strip())
     
     if not pickage_list:
-        print('all package are up to date')
+        print('all packages are up to date')
         return
 
     for _p in pickage_list:
